@@ -35,6 +35,28 @@ public class PTra03_08 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+		int price;
+		 switch(num) {
+		 case 1:
+			 System.out.println("オレンジジュース");
+			 price=150;
+			 break;
+		 case 2:
+			 System.out.println("リンゴジュース");
+			 price=160;
+			 break;
+		 case 3:
+			 System.out.println("コーヒー");
+			 price=200;
+			 break;
+			 default:
+			 price=0;
+			 System.out.println("違います。");
+		 }
+
+		 System.out.println(money - price);
+
+
 
 	}
 }
