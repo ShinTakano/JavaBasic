@@ -25,12 +25,10 @@ public class Character {
 	private int endurance;
 
 	/**
-	 * 体力、攻撃力、防御力の初期値を設定しつつ、Characterインスタンスを生成します
-	 * @param hp
-	 * @param attack
+	 * 体力、攻a	 * @param attack
 	 * @param defence
 	 */
-	public Character(int hp, int power, int endurance) {
+	public Character(int hp, int power, int endurance) {//クラス名と同じ名称を使うのがコンストラクタ。
 		this.hp = hp;
 		this.power = power;
 		this.endurance = endurance;
