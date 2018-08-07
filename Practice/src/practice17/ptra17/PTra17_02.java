@@ -25,7 +25,12 @@ public class PTra17_02 {
 		 * 以下の処理はコンパイルエラーになります。
 		 * ★ 適切な修正を行い、コンパイルエラーをなくしてください
 		 */
-		String line = ThrowExceptionUtil.inputValue();
+		String line = null;
+		try {
+			line = ThrowExceptionUtil.inputValue();
+		}catch(Exception f) {
+			System.out.println("例外が発生しました");
+		}
 
 
 
