@@ -27,6 +27,9 @@ public class PTra17_02 {
 		 */
 		String line = ThrowExceptionUtil.inputValue();
 
+
+
+
 		System.out.println(line);
 	}
 }
